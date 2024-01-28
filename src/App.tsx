@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () =>{
+  return(
+    <div className='mt-2'>
+      <h1>Ejercicios - React</h1>
+      <hr/>
+      {/* <TiposBasicos/> */}
+      {/* <ObjetosLiterales/> */}
+      {/* <Funciones/> */}
+      {/* <Contador/> */}
+      {/* <ContadorCustomHook/> */}
+      {/* <ComponenteUseEffect/> */}
+      {/* <Login/> */}
+      {/* <Usuarios/> */}
     </div>
-  );
+  )
 }
-
+//Exportando el componente a todo el proyecto
 export default App;
