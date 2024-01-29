@@ -11,7 +11,7 @@ export const DivisionArreglo = () => {
   console.log("value : ",newArray);
   return (
     <div>
-        <h3>Arreglo dividido para 5</h3>
+        <h3>Arreglo dividido para 5: ver en consola</h3>
         {/* <button className="btn btn-primary">Calcular nuevo arreglo</button> */}
     </div>
   )
