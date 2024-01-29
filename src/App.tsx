@@ -1,7 +1,8 @@
-// import { AreaCuadrado } from "./components/AreaCuadrado";
+import { AreaCuadrado } from "./components/AreaCuadrado";
 import { SumaArreglos } from "./components/SumaArreglos";
-
-// import { Acumulador } from "./components/Acumulador";
+import { DivisionArreglo } from "./components/DivisionArreglo";
+import { PromedioArreglo } from "./components/PromedioArreglo";
+import { Acumulador } from "./components/Acumulador";
 
 const App = () =>{
   return(
@@ -9,7 +10,9 @@ const App = () =>{
       <h1>Ejercicios - React</h1>
       <hr/>
       {/* <AreaCuadrado/> */}
-      <SumaArreglos/>
+      {/* <SumaArreglos/> */}
+      <DivisionArreglo/>
+      {/* <PromedioArreglo/> */}
       {/* <Acumulador/> */}
     </div>
   )
