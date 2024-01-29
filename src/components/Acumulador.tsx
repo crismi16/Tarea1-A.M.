@@ -1,8 +1,9 @@
 import { useCounter } from '../hooks/useCounter';
 
 export const Acumulador = () => {
-    let inicial: number = 0;
-    const {valor,contador} = useCounter(inicial);
+  
+  let inicial: number = 0;
+  const {valor,contador} = useCounter(inicial);
     
   return (
     <div>

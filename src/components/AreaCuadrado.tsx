@@ -2,11 +2,13 @@ import { useState } from "react";
 
 export const AreaCuadrado = () => {
 
-    const [area,setValor] = useState(0);
-    let lado : number = 5; 
-    const areaCuadrado = (lado = 0) =>{
-        setValor(lado*lado)
-    }
+  let lado : number = 5; 
+
+  const [area,setValor] = useState(0);
+    
+  const areaCuadrado = (lado = 0) =>{
+    setValor(lado*lado);
+  }
 
   return (
     <div>
