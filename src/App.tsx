@@ -1,12 +1,15 @@
+import { AreaCuadrado } from "./components/AreaCuadrado";
+
+// import { Acumulador } from "./components/Acumulador";
 
 const App = () =>{
   return(
     <div className='mt-2'>
       <h1>Ejercicios - React</h1>
       <hr/>
-      {/* <AreaC/> */}
+      <AreaCuadrado/>
+      {/* <Acumulador/> */}
     </div>
   )
 }
-//Exportando el componente a todo el proyecto
 export default App;
