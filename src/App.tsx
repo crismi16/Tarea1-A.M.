@@ -11,8 +11,8 @@ const App = () =>{
       <hr/>
       {/* <AreaCuadrado/> */}
       {/* <SumaArreglos/> */}
-      <DivisionArreglo/>
-      {/* <PromedioArreglo/> */}
+      {/* <DivisionArreglo/> */}
+      <PromedioArreglo/>
       {/* <Acumulador/> */}
     </div>
   )
