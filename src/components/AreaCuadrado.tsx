@@ -11,9 +11,8 @@ export const AreaCuadrado = () => {
   return (
     <div>
         <h3>Area del Cuadrado: <small>{area}</small></h3>
-        <input type="text" className='input m-1' id='side'/>
+        {/* <input type="text" className='input m-1' id='side'/> */}
         <button className="btn btn-primary" onClick={()=>areaCuadrado(lado)}>Calcular area</button>
-        
     </div>
   )
 }
